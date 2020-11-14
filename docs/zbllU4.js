@@ -80,9 +80,9 @@ function replacement()
 	$('.scramble').html(gen[liczba]);
 	$('.counter').html('Attempts: '+good+'/'+wrong);
 	$('.accuracy').html('Accuracy: '+(good/wrong*100).toFixed(1)+'%');
-	$('.forgotover').html('<div class="forgot"></div>');
+	$('.forgotover').html('<div class="forgot"></div><div style="clear:both"></div>');
 	$('.forgot').click(function () {
-    $('.forgotover').html('Algoritmh: '+alg[liczba]);
+    $('.forgotover').html('Algorithm: '+alg[liczba]);
     $('.forgotover').css('margin-bottom', '0px');
 });
 }
