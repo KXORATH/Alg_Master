@@ -1,0 +1,2 @@
+[1115/111840.206:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[1115/200150.093:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\minec\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c9cc5347-c746-48ce-a8f6-923d915eb3f5: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)

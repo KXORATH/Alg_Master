@@ -5,7 +5,9 @@
 	<title>Alg Master</title>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link 
+href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&displa
+y=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="main.css" type="text/css" />
 	<script src=""></script>
@@ -25,17 +27,81 @@
 	<div class="empty">
 		<div class="container">
 			<h2 style="margin-bottom: 100px; margin-top: 25px;">You can choose what you want to do:</h2>
-			<div class="returns" style="margin-right: 50px;"><div id="btn"><span class="noselect">LEARN</span><div id="circle"></div></div></div>
-			<a href="training.html"><div class="returns" style="margin-left: 50px;"><div id="btn"><span class="noselect">TRAIN</span><div id="circle"></div></div></div></a>
-			<div><h2 style="margin-top: 100px; margin-left: 15px;">Below you can find some important things &#128071 </div>
+			<div class="returns" style="margin-right: 50px;"><div id="btn">
+			<span class="noselect">LEARN</span><div id="circle"></div></div></div>
+			<a href="training.html"><div class="returns" style="margin-left: 50px;"><div id="btn">
+			<span class="noselect">TRAIN</span><div id="circle"></div></div></div></a>
+			<div><a style="color: #2b2d42;">
+			<h2 id="clickdown" style="margin-top: 100px; margin-left: 15px;">Below you can find some important things 
+			&#128071 </h2></a></div>
 
 		</div>
 	</div>
 	</main>
-	<div id="about" class="empty" style="background-color: #8d99ae; height: 1000px; border-top: 2px #ea153a solid;"></div>
-	<footer id="footer">Alg Master 2020 &copy <a href="https://www.instagram.com/tokarski_piotrek" target="_blank">Piotr Tokarski</a>
-	<a href="https://www.instagram.com/tokarski_piotrek" class="fa fa-instagram" style="color: #ff5dae" target="_blank"></a>
+	<div id="about" class="empty" style="background-color: #8d99ae; border-top: 2px #ea153a solid;">
+		<article class="section">
+			
+			<h4>About:</h4>
+			<div class="tiletext">
+				This app is created by Piotr Tokarski for learning and training cube algorithms. Using this app you can 
+				choose your cube, method, set and case and get the best algorithms for each situation on the cube. Also 
+				you can choose your cube, method and set for training previously known algorithms. Then, you are going 
+				to click GOOD or WRONG and all the statistic you will get below. If you forgot the algorithm for each 
+				case, you can click "Forgot?" and you will get the algorithm on the top of the site. Then, you have to 
+				click "NEXT" so as not to spoil the statistics. Also you can use <span id="shortcutslink" style="color: 
+				#ea153a; cursor: pointer; font-weight: 500;">shortcuts</span> for pressing buttons responsible for 
+				evaluating the solution. I hope to improve your skills by this site.
+			</div>
+			
+		</article>
+		
+		<article id="#shortcuts" class="section" style="background-color: #EDF2F4; border-top: 2px #ea153a solid;">
+			
+			<h4 style="color: #2b2d42;">Shortcuts:</h4>
+			<div class="tiletext" style="color: #2b2d42; text-align: center; font-size: 25px;">
+				G or g &#10140 GOOD<br><br/>
+				W or w &#10140 WRONG<br><br/>
+				N or n &#10140 NEXT<br><br/>
+			</div>
+			
+		</article>
+		
+		<article id="#helpus" style="background-color: #8d99ae; border-top: 2px #ea153a solid; margin-bottom: 100px;">
+			
+			<h4>Help us:</h4>
+			<div class="tiletext" style="text-align: center; font-size: 20px;">
+				If you want to help us improving this site, you can donate us and we will try out best to add features 
+				like adding your own algorithms and saving your statistics. <br><br/>
+				Bank account number: 00 0000 0000 0000 0000 0000 0000 <br>
+				Receiver: Piotr Tokarski <br>
+				Title: Alg Master Donation <br>
+			</div>
+			
+		</article>
+		
+		<article id="#contact" class="section" style="background-color: #EDF2F4; border-top: 2px #ea153a solid;">
+			
+			<h4 style="color: #2b2d42;">Contact:</h4>
+			<div class="tiletext" style="color: #2b2d42; text-align: center; font-size: 25px;">
+				If you want to contact with us please send an email for this address: <br>
+				minecraftKXORATH@gmail.com <br></br>
+			</div>
+			<div class="flex-center">
+				<a href="https://www.facebook.com/profile.php?id=100004824854046" target="_blank"><i class="fa fa-facebook fa-4x icon-3d"></i></a>
+				<a href="https://www.instagram.com/tokarski_piotrek" target="_blank"><i class="fa fa-instagram fa-4x icon-3d"></i></a>
+			</div>
+			<div style="height: 150px;"></div>
+		</article>
+		
+	</div>
+	<footer id="footer">Alg Master 2020 &copy <a href="https://www.instagram.com/tokarski_piotrek" target="_blank">Piotr 
+Tokarski</a>
+	<a href="https://www.instagram.com/tokarski_piotrek" class="fa fa-instagram" style="color: #ff5dae" 
+target="_blank"></a>
 	</footer>
+	
+	<script src="jquery.js"></script>
+	<script src="scroll_to_div.js"></script>
 	
 </body>
 </html>
