@@ -238,6 +238,7 @@ p
 	border-radius: 7px;
 	margin-right: auto;
 	margin-left: auto;
+	height: 22px;
 }
 
 .returns:hover
@@ -251,24 +252,14 @@ p
 
 .back
 {
+	position: absolute;
 	height: 22px;
 	float: left;
-	padding: 5px;
 	text-align: center;
 	font-weight: 600;
 	font-size: 20px;
-	background-color: #8d99ae;
-	border-radius: 7px;
+	background-color: transparent;
 	margin-left: 10px;
-}
-
-.back:hover
-{
-	background-color: #ea153a;
-	color: #ffffff;
-	cursor: pointer;
-	transform: scale(0.96);
-	transition: all 0.3s ease-in-out;
 }
 
 .separate
