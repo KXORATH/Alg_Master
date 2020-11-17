@@ -231,7 +231,7 @@ p
 
 .back
 {
-	position: absolute;
+	height: 22px;
 	float: left;
 	padding: 5px;
 	text-align: center;
