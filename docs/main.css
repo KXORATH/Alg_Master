@@ -473,24 +473,28 @@ p
 
 .containerlearn
 {
-	width: 900px;
+	width: 909px;
 	text-align: center;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .learntile
 {
 	width: 300px;
 	height: 300px;
-	float: left;
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 .tileimg
 {
 	max-height: 200px;
 	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
