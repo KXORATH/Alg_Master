@@ -180,7 +180,8 @@ p
 	color: #2B2D42;
 }
 
-.sticky {
+.sticky 
+{
   position: fixed;
   top: 0;
   width: 100%;
@@ -193,9 +194,23 @@ p
   margin-left: auto;
 }
 
+.sticky2 
+{
+  position: fixed;
+  top: 80px;
+  z-index: 1;
+  background-color: transparent;
+  height: 50px;
+  text-align: center;
+  color: #ffffff;
+  text-align: right;
+  margin-left: 90%;
+}
+
 .empty
 {
 	margin-top: 100px;
+	width: 100%;
 }
 
 .return
@@ -205,6 +220,11 @@ p
 	font-weight: 550;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+#about
+{
+	width: 100%;
 }
 
 .returns
@@ -365,6 +385,54 @@ p
 }
 
 #btn:hover #circle {
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
+
+#btn2 {
+  background: #2b2d42;
+  height: 50px;
+  width: 150px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#btn2 #circle2 {
+  width: 140px;
+  height: 40px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.noselect2 {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#btn2:hover {
+  background: #EF233C;
+}
+
+#btn2:hover #circle2 {
   border-radius: 0;
   border-bottom: 2px solid #eee;
 }
