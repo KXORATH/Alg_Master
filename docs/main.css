@@ -231,6 +231,8 @@ p
   transition: all 1s ease-in-out;
   transition-delay: 1s;
   transition-property: color;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .empty
