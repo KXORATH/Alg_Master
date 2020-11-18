@@ -205,6 +205,9 @@ p
   color: #ffffff;
   text-align: right;
   margin-left: 80%;
+  transition: all 1s ease-in-out;
+  transition-delay: 1s;
+  transition-property: color;
 }
 
 .empty
