@@ -84,7 +84,7 @@ function replacement()
 	$('.forgot').click(function () {
     $('.forgotover').html('Algorithm: '+alg[liczba]);
     $('.forgotover').css('margin-bottom', '0px');
-});
+	});
 }
 
 
