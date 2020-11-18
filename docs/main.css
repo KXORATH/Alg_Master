@@ -43,6 +43,13 @@ h5
 	color: #2B2D42;
 }
 
+h6
+{
+	color: #2b2d42;
+	font-size: 35px;
+	margin: 15px auto;
+}
+
 a:link    { color: #EDF2F4; text-decoration: none; }
 a:visited { color: #EDF2F4; }
 a:active  { color: #EDF2F4; }
@@ -210,6 +217,22 @@ p
   transition-property: color;
 }
 
+.sticky3 
+{
+  position: fixed;
+  top: 25%;
+  z-index: 1;
+  width: 135px;
+  background-color: #2b2d42;
+  text-align: center;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 0;
+  transition: all 1s ease-in-out;
+  transition-delay: 1s;
+  transition-property: color;
+}
+
 .empty
 {
 	margin-top: 100px;
@@ -244,7 +267,29 @@ p
 	height: 22px;
 }
 
+.leftreturns
+{
+	padding: 5px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	background-color: #8d99ae;
+	border-radius: 7px;
+	margin: 10px auto;
+	height: 22px;
+	width: 100px;
+}
+
 .returns:hover
+{
+	background-color: #ea153a;
+	color: #ffffff;
+	cursor: pointer;
+	transform: scale(0.96);
+	transition: all 0.3s ease-in-out;
+}
+
+.leftreturns:hover
 {
 	background-color: #ea153a;
 	color: #ffffff;
