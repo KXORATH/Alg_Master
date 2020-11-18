@@ -1,0 +1,55 @@
+//H
+gen[1] = "U2 R2 F2 U2 R' U2 F2 R2 U'";
+gen[2] = "U R2 F' R2 F2 U2 F' R2 U'";
+gen[3] = "R2 U2 F' R' U2 R' U2 R' F'";
+gen[4] = "F R' U2 R2 F R' U R2 U R2";
+
+//Pi
+gen[5] = "R F2 U2 F U' R U' F2 U2 R'";
+gen[6] = "F R2 F2 R' U2 R F2 R2 F'";
+gen[7] = "R F' R' F U2 R U' F U' R2";
+gen[8] = "F' U F R' U2 F2 R' F' U F'";
+gen[9] = "";
+gen[10] = "F' U R U2 R' U F2 R' F2 R";
+
+//Sune
+gen[11] = "";
+gen[12] = "";
+gen[13] = "R2 F' R2 U' F R' U' F' U2";
+gen[14] = "R F2 R' F2 R' F U F' U2";
+gen[15] = "";
+gen[16] = "F' R' U2 F U2 F U' R F R2";
+
+//Anti-Sune
+gen[17] = "U R U R' U R U2 R' U'";
+gen[18] = "";
+gen[19] = "R U F U' F U2 R F2 U'";
+gen[20] = "R' F R2 U F R2 U' R F' R'";
+gen[21] = "R F' U' F U2 F R2 F' U'";
+gen[22] = "";
+
+//T
+gen[23] = "U F' U2 F U2 R U R' U'";
+gen[24] = "F2 U' R' F U2 R F2 R' U'";
+gen[25] = "F' R' U F' U F' R' U2 R2 F'";
+gen[26] = "R' F2 U2 F' U R' U R' F' R'";
+gen[27] = "R' F U' R F R' U R F'";
+gen[28] = "R U' R' U2 R2 F' U' F R'";
+
+//L
+gen[29] = "";
+gen[30] = "U' F U F' U' R' F' R U'";
+gen[31] = "R' F' R2 U2 R' F' R U2 R'";
+gen[32] = "R2 U' R2 F U R F2 U' F' R";
+gen[33] = "";
+gen[34] = "U R' U' R2 F2 R' U' R F2 R'";
+
+//U
+gen[35] = "";
+gen[36] = "U R F2 U2 R' U' F R' F R'";
+gen[37] = "F' U R F' R F R' F R'";
+gen[38] = "F R U' R2 U' F' R' U F2 R";
+gen[39] = "F U2 R U' R U2 F R U2 R2";
+gen[40] = "F R U2 F' R2 F U' R' U R2";
+
+
