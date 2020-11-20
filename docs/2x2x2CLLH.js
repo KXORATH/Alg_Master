@@ -72,3 +72,4 @@ function replacement()
 }
 
 
+//zmiana dla Arletki
