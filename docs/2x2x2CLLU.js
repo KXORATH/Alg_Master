@@ -9,20 +9,20 @@ var good = 0;
 var wrong = 0;
 
 var gen = [];
-gen[1] = "R F2 U2 F U' R U' F2 U2 R'";
-gen[2] = "F R2 F2 R' U2 R F2 R2 F'";
-gen[3] = "R F' R' F U2 R U' F U' R2";
-gen[4] = "F' U F R' U2 F2 R' F' U F'";
-gen[5] = "R2 U' F U R2 F2 R' F' R U' F'";
-gen[6] = "F' U R U2 R' U F2 R' F2 R";
+gen[1] = "U' R U2 F R2 F' U2 R' U'";
+gen[2] = "U R F2 U2 R' U' F R' F R'";
+gen[3] = "F' U R F' R F R' F R'";
+gen[4] = "F R U' R2 U' F' R' U F2 R";
+gen[5] = "F U2 R U' R U2 F R U2 R2";
+gen[6] = "F R U2 F' R2 F U' R' U R2";
 
 var alg = [];
-alg[1] = "R2 U R' U' F R F' R U' R2'";
-alg[2] = "F (R U R' U')(R U R' U') F'";
-alg[3] = "y R U' R U' R' U R' F R2 F'";
-alg[4] = "R U' R' F R' F R U R' F R";
-alg[5] = "R U2 R' U' R U R' U2 R' F R F'";
-alg[6] = "y2 L' U2 L U L' U' L U2 L F' L' F";
+alg[1] = "F (R U R' U') F'";
+alg[2] = "y' R2' F2 R U R' F U' R U R2";
+alg[3] = "y x R U' R U' R' U L' U' L";
+alg[4] = "z' U2 R' U' R2 U' R' U' R U' R' U'";
+alg[5] = "y' R U2 R' U R' F2 R F' R' F2 R";
+alg[6] = "y' R' F2 R U' R U2' R' F R U2' R'";
 
 replacement();
 $('.accuracy').html('Accuracy: ');
@@ -64,7 +64,7 @@ document.onkeyup = function(e) {
 function replacement()
 {
 	var liczba = getRandomInt(0,6) + 1;
-	$('.view').html('<img src="img/2x2x2CLLPi'+liczba+'.svg">');
+	$('.view').html('<img src="img/2x2x2CLLU'+liczba+'.svg" style="transform: rotateZ(-90deg);">');
 	$('.scramble').html(gen[liczba]);
 	$('.counter').html('Attempts: '+good+'/'+wrong);
 	$('.accuracy').html('Accuracy: '+(good/wrong*100).toFixed(1)+'%');
