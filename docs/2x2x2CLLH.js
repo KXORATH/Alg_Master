@@ -60,7 +60,7 @@ document.onkeyup = function(e) {
 function replacement()
 {
 	var liczba = getRandomInt(0,4) + 1;
-	$('.view').html('<img src="img/2x2x2CLLH'+liczba+'.svg">');
+	$('.view').html('<img src="img/2x2x2CLLH'+liczba+'.svg" style="transform: rotateZ(90deg);">');
 	$('.scramble').html(gen[liczba]);
 	$('.counter').html('Attempts: '+good+'/'+wrong);
 	$('.accuracy').html('Accuracy: '+(good/wrong*100).toFixed(1)+'%');
